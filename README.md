@@ -10,8 +10,9 @@ import numpy as np
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
+# 縦書きテキストエディタ
 
-# 高DPIスケーリングを有効化
+
 try:
     from ctypes import windll
     windll.shcore.SetProcessDpiAwareness(1)
